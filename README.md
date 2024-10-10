@@ -74,10 +74,6 @@ IntelligentStockOptimizer/
    ./your_executable_name
    ```
 
-## Usage
-
-- After running the application, you can input stock parameters and view the dynamically optimized portfolio based on real-time market data.
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue for discussion.

@@ -3,6 +3,23 @@
         {
             "name": "Mac",
             "includePath": [
+                "/opt/homebrew/Cellar/sfml/2.6.1/include/**", // Include SFML headers
+                "${workspaceFolder}/**" // Include all headers in your workspace
+            ],
+            "defines": [
+                "NDEBUG" // Optional: Add any necessary preprocessor defines
+            ],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-x64"
+        },
+        {
+            "name": "C/C++: Edit Configurations (UI)",
+            "includePath": [
                 "${workspaceFolder}/**"
             ],
             "defines": [],

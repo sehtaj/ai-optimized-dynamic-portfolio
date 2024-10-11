@@ -1,8 +1,8 @@
 #include <array>
 #include <chrono>
 
-#include "include/utils/Global.hpp"
-#include "include/pathfinding/GetCell.hpp"
+#include "utils/Global.hpp"
+#include "pathfinding/GetCell.hpp"
 
 gbl::MAP::Cell get_cell(const gbl::Position<short>& i_cell, const gbl::Map<>& i_map)
 {

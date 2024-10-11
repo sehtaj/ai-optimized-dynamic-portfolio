@@ -3,25 +3,16 @@
 #include <queue>
 #include <SFML/Graphics.hpp>
 
-#include "include/utils/Global.hpp"
-#include "include/pathfinding/GetAdjacentCells.hpp"
-#include "include/pathfinding/GetCell.hpp"
-#include "include/pathfinding/DrawText.hpp"
-#include "include/pathfinding/DrawMap.hpp"
-#include "include/pathfinding/GetMouseCell.hpp"
-#include "include/pathfinding/Astar.hpp"
-#include "include/pathfinding/BFS.hpp"
-#include "include/pathfinding/Dijkstra.hpp"
+#include "utils/Global.hpp"
+#include "pathfinding/GetAdjacentCells.hpp"
+#include "pathfinding/GetCell.hpp"
+#include "pathfinding/DrawText.hpp"
+#include "pathfinding/DrawMap.hpp"
+#include "pathfinding/GetMouseCell.hpp"
+#include "pathfinding/Astar.hpp"
+#include "pathfinding/BFS.hpp"
+#include "pathfinding/Dijkstra.hpp"
 
-//Hey, you wanna play a game?
-//I'm gonna think of a number between 1 and 20 and you need to guess what it is.
-//Ready?
-//Go!
-//...
-//...
-//Well?
-//No answer?
-//That's okay. If you're wondering, I was thinking of 5.28648567285.
 
 int main()
 {
@@ -94,10 +85,10 @@ int main()
 	sf::Sprite map_sprite;
 
 	sf::Texture font_texture;
-	font_texture.loadFromFile("Resources/Images/Font.png");
+	font_texture.loadFromFile("../Resources/Images/Font.png");
 
 	sf::Texture map_texture;
-	map_texture.loadFromFile("Resources/Images/Map.png");
+	map_texture.loadFromFile("../Resources/Images/Map.png");
 
 	gbl::Map<> map = {};
 
@@ -196,7 +187,6 @@ int main()
 				char step_x;
 				char step_y;
 
-				//Why it's line_size and not line_length?
 				unsigned short line_size;
 				
 				gbl::Position<short> mouse_cell = get_mouse_cell(window);

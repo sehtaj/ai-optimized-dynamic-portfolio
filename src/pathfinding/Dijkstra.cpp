@@ -4,9 +4,9 @@
 #include <queue>
 #include <cfloat>
 
-#include "include/utils/Global.hpp"
-#include "include/pathfinding/Dijkstra.hpp"
-#include "include/pathfinding/GetAdjacentCells.hpp"
+#include "utils/Global.hpp"
+#include "pathfinding/Dijkstra.hpp"
+#include "pathfinding/GetAdjacentCells.hpp"
 
 
 DijkstraComparison::DijkstraComparison(gbl::Map<float>* i_distances) :

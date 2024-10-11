@@ -3,9 +3,9 @@
 #include <map>
 #include <vector>
 
-#include "include/utils/Global.hpp"
-#include "include/pathfinding/Astar.hpp"
-#include "include/pathfinding/GetAdjacentCells.hpp"
+#include "utils/Global.hpp"
+#include "pathfinding/Astar.hpp"
+#include "pathfinding/GetAdjacentCells.hpp"
 #include <cfloat>
 
 float calculate_h_score(const gbl::Position<>& i_cell_0, const gbl::Position<>& i_cell_1)

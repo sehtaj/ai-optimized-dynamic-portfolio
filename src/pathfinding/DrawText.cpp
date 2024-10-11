@@ -4,8 +4,8 @@
 #include <sstream>
 #include <SFML/Graphics.hpp>
 
-#include "include/utils/Global.hpp"
-#include "include/pathfinding/DrawText.hpp"
+#include "utils/Global.hpp"
+#include "pathfinding/DrawText.hpp"
 
 void draw_stats(const short i_x, const short i_y, const unsigned short i_path_length, const unsigned short i_total_checks, const std::chrono::microseconds& i_duration, const std::string& i_algorithm_name, sf::RenderWindow& i_window, const sf::Texture& i_font_texture)
 {

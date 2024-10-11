@@ -2,6 +2,7 @@
 #include <chrono>
 #include <map>
 #include <queue>
+#include <cfloat>
 
 #include "include/utils/Global.hpp"
 #include "include/pathfinding/Dijkstra.hpp"

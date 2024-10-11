@@ -2,8 +2,8 @@
 #include <chrono>
 #include <SFML/Graphics.hpp>
 
-#include "Headers/Global.hpp"
-#include "Headers/GetMouseCell.hpp"
+#include "include/utils/Global.hpp"
+#include "include/pathfinding/GetMouseCell.hpp"
 
 gbl::Position<short> get_mouse_cell(const sf::RenderWindow& i_window)
 {

@@ -3,13 +3,15 @@
 #include <queue>
 #include <SFML/Graphics.hpp>
 
-#include "Headers/DrawText.hpp"
-#include "Headers/Global.hpp"
-#include "Headers/DrawMap.hpp"
-#include "Headers/GetMouseCell.hpp"
-#include "Headers/Astar.hpp"
-#include "Headers/BFS.hpp"
-#include "Headers/Dijkstra.hpp"
+#include "include/utils/Global.hpp"
+#include "include/pathfinding/GetAdjacentCells.hpp"
+#include "include/pathfinding/GetCell.hpp"
+#include "include/pathfinding/DrawText.hpp"
+#include "include/pathfinding/DrawMap.hpp"
+#include "include/pathfinding/GetMouseCell.hpp"
+#include "include/pathfinding/Astar.hpp"
+#include "include/pathfinding/BFS.hpp"
+#include "include/pathfinding/Dijkstra.hpp"
 
 //Hey, you wanna play a game?
 //I'm gonna think of a number between 1 and 20 and you need to guess what it is.

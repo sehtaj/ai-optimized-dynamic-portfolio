@@ -58,7 +58,7 @@ IntelligentStockOptimizer/
 1. Clone the repository:
    ```bash
    git clone 
-   cd IntelligentStockOptimizer
+   cd AIOptimizedDynamicPortfolio
    ```
 
 2. Build the project using CMake:
